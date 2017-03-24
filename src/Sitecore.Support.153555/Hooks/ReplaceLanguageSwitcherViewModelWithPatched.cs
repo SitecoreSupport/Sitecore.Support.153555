@@ -19,6 +19,7 @@
         // protects from refactoring-related mistakes
         var type = typeof(EmailCampaign.Controls.LanguageSwitcher.LanguageSwitcherViewModel);
 
+        // full name of the class is enough
         var fieldValue = type.FullName;
 
         var database = Factory.GetDatabase(databaseName);
